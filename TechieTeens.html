@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TechieTeens.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="toggle">
+        <span class="top-line common"></span>
+        <span class="middle-line common"></span>
+        <span class="bottom-line common"></span>
+    </label>
+    <div class="slide">
+        <h1>TECHIE TEENS+</h1>
+        <div class="icon"><i class="fa-solid fa-circle-user"></i> </div>
+        <button class="reg"><a href="Sign-up.html">Sign-up</a></button>
+        <button class="Sign" id="show-login" onclick="openPopup()"><a href="#">Sign-in</a></button>
+        <div class="popup" id="login-popup">
+            <div class="close-btn" id="close-btn" onclick="closePopup()">&times;</div>
+            <div class="form">
+                <h2>
+                    Log in
+                </h2>
+                <div class="form-element">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-element">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                </div>
+                <div class="form-element">
+                    <button>Sign in</button>
+                </div>
+                <div class="form-element">
+                    <a href="#" >Forget password</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.getElementById("show-login").addEventListener("click",function(){
+                document.getElementById("login-popup").classList.add("active");
+                    
+            });
+            document.getElementById("close-btn").addEventListener("click",function(){
+                document.getElementById("login-popup").classList.remove("active");
+                   
+            });
+        </script>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Admission</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <header><div class="tech">
+        TECHIE TEENS+</div>
+        <div class="help">
+        <ul>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    </header>
+    <section>
+        <nav>
+            <div class="table1">
+        <p>
+            <div class="h1">What should we do?</div><br>
+            <span>In developing a School Student Software Learning Management system tailored for students <strong> aged 12</strong> and above to learn an additional language, the emphasis should be on creating an immersive and interactive language learning experience. The platform should offer a diverse range of language courses structured to cater to different proficiency levels, from beginner to advanced. Incorporating multimedia content such as audio recordings, videos, and interactive exercises can facilitate listening, speaking, reading, and writing skills development. Integration of language learning games and activities adds an element of fun and engagement, encouraging students to practice and reinforce their language skills in an enjoyable manner.</span>
+        </p></div>
+    </nav>
+    <div class="img1"><img src="https://bubblebudkids.com/wp-content/uploads/2020/11/interactiveACTIVITIES-e1604572918548.png"></div>
+
+    <div class="img2"><img src="https://bubblebudkids.com/wp-content/uploads/2020/11/Skype_Picture_2020_11_05T10_31_10_203Z.png"></div>
+<nav>
+    <div class="table2">
+    <table>
+        <td>
+        <p>
+            <div class="h1">Skills we can teach kids in web development and various languages!</div><br>
+            <span>Kids can learn HTML, CSS, and JavaScript for web development alongside Python, Java, and C# (.NET) for programming versatility. These languages offer a broad foundation, fostering creativity and problem-solving skills essential for building interactive websites and web applications. Introducing basics of user experience (UX) design and version control with tools like Git enhances their understanding of web development processes. Through hands-on projects, kids gain practical experience and confidence, preparing them for the dynamic digital landscape ahead. By mastering these languages, they cultivate adaptability and critical thinking, key attributes for success in the tech industry.</span>
+        </p></div>
+        </td>
+    </table>
+    </nav>
+     <nav>
+            <div class="table1">
+        <p>
+            <div class="h1">School management system software tools that help you grow faster</div><br>
+            <span>Scaling a business can be challenging if not managed in the right way. Working with large chains and standalone schools, we have developed tools that not only reduce the time spent in administrative tasks, but also enable you to grow quickly.</span>
+        </p></div>
+    </nav>
+    <div class="img3"><img src="https://bubblebudkids.com/wp-content/uploads/2020/11/helpgrowFASTER-e1604572824934.png"></div>
+
+    </section>
+    <article>
+        <div class="grid-container">
+            <div class="grid-item"><i class="fa-solid fa-building"></i>FRANCHISE MANAGEMENT</div>
+            <div class="grid-item"><i class="fa-solid fa-users-rectangle"></i>SCHOOL MANAGEMENT</div>
+            <div class="grid-item"><i class="fas fa-user"></i>STUDENT MANAGEMENT</div>
+            <div class="grid-item"><i class="fas fa-shopping-cart"></i>ORDER MANAGEMENT</div>
+            <div class="grid-item"><i class="fas fa-money-bill"></i>ROYALTY MANAGEMENT</div>
+            <div class="grid-item"><i class="fas fa-wallet"></i>FEE MANAGEMENT</div>
+            <div class="grid-item"><i class="fas fa-id-card"></i>ID CARD MANAGEMENT</div>
+            <div class="grid-item"><i class="fas fa-hands-helping"></i>COLLABORATIVE TOOLS</div>
+          </div>
+          
+    </article>
+        <div class="sign">
+        
+            Sign up for Instant access to all this & more<button><a href="Sign-up.html"><i class="fa-solid fa-star"></i>Sign up for free</a></button>
+        </div>
+     <article>
+        <div class="commut">
+            COMMUNICATION TOOLS
+        </div>
+        <div class="tools">
+        Enhancing Parent-School Communication
+        </div>
+
+                    <div class="events">
+                    <p>
+                        <h3>Keeping Parents Informed</h3>
+                        Share important updates and announcements with all parents effortlessly.
+                    <h3>Homework and Learning Resources
+                    </h3>Provide parents with easy access to homework assignments and a wealth of <br>learning resources for at-home study.
+                    <h3>Simplified Admissions for Every Step
+                    </h3>From initial inquiry to student verification, make every admission step seamless <br>and efficient.</p></div>
+
+                    <div class="life">
+                        <p>
+                    <h3>Documenting School Life
+                    </h3>Share cherished school moments and media with parents, strengthening the community bond.</h3>
+                    <h3>Organising School Events and Meals
+                    </h3>Plan, communicate and remind parents of upcoming events, meals, and holiday schedules with ease.
+                    <h3>Gather Feedback
+                    </h3>Facilitate a two-way communication channel for feedback, ensuring a continuous improvement loop.</p>
+                    </div>
+     </article>
+     <footer>
+        <div class="foot">
+                <div class="col1">
+                    <h4>What we do</h4>
+                    <ul>
+                        <li><a href="smartclass.html">Digital Smart Classrooms</a></li>
+                        <li><a href="#">Best Apps for Kids</a></li>
+                        <li><a href="#">Educational Software for Schools</a></li>
+                    </ul>
+                </div>
+               <div class="articles">
+                    <h4>Articles</h4>
+                    <ul>
+                        <li><a href="#">Educational Technologies</a></li>
+                        <li><a href="#">Gamification in Education</a></li>
+                        <li><a href="#">Building Successful Coders</a></li>
+                    </ul>
+        
+                 </div>
+                 <div class="address">
+            
+                    <i class="fas fa-map-marker-alt"></i> <span>Address </span>
+                    <p>
+                        420, CIPET IPT, Chennai.<br>
+                        <div class="horizontal-line"></div>
+                        <i class="fas fa-phone"> </i><strong> Phone Number:</strong> +91 8610303030<br>
+                        <i class="fas fa-envelope"></i> <strong> Mail:</strong> <a href="mailto:techieteensgo@gmail.com">techieteensgo@gmail.com</a><br>
+                        <i class="fas fa-globe"></i> <strong> Website:</strong> <a href="https://techieteens.com">https://techieteens.com</a> 
+                    </p>
+                   </div>
+        </div>
+    </footer>  
+    </body>
+</html>

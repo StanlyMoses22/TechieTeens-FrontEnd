@@ -1,0 +1,310 @@
+body {
+    background-color: #d8ecf2;
+    font-family: Raleway;
+    box-sizing: border-box;
+
+}
+.slide {
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50px;
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    background-color: #d8ecf2;
+    transition: 0.5s ease;
+    transform: translateX(-400px);
+}
+h1 {
+    color:rgb(41, 85, 103);
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+}
+ul li a:hover{
+    color: rgb(172, 230, 255);
+}
+a {
+    color: #011a41;
+    font-weight: 500;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+input[type="checkbox"] {
+    display: none;
+}
+.toggle {
+    margin-left:20px;
+    position: absolute;
+    height: 35px;
+    width:35px;
+    margin-top: 80px;
+    top: 20px;
+    left: 15px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #d8ecf2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.toggle .common {
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: #0f093b;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.toggle .top-line {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.toggle .middle-line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.toggle .bottom-line {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type="checkbox"]:checked ~ .toggle .top-line {
+    left: 5px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+input[type="checkbox"]:checked ~ .toggle .middle-line {
+    opacity: 0;
+    transform: translateX(20px);
+}
+input[type="checkbox"]:checked ~ .toggle .bottom-line {
+    left: 5px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+input[type="checkbox"]:checked ~ .slide {
+    transform: translateX(0);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+header{
+    /* position: absolute; */
+    text-align: center;
+    width: 1470px;
+    margin-left: 10px;
+    font-size: 30px;
+    padding: 20px;
+    background-color:rgb(172, 230, 255);
+    color: rgb(41, 85, 103);
+}
+.help{
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    word-spacing: 20px;
+    float: right;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    
+}
+.con{
+    border: 2px solid black; 
+    padding: 2px 2px; 
+    padding-bottom: 2px;
+    width: 80px; 
+    height: 20px;
+    margin: 0 auto;
+}
+.help li{
+    list-style: none;
+    display: inline-block;
+}
+.icon{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 17px;
+    height:30px;
+    width:150px;
+    padding: 5px 5px;
+    border-radius: 8px;
+    margin-left: 10px;
+    border: none;
+    background-color:rgb(172, 230, 255);
+    color:#011a41;
+    cursor:pointer;
+}
+
+button:hover{
+    border-color: rgba(3, 99, 244, 0.5);
+    box-shadow: 0 0 10px rgba(15, 206, 240, 0.7);
+}
+h2{
+    font-size: 200px;
+    font-weight: 900;
+    letter-spacing: 20px;
+    margin-left: 300px;
+    background-image: url(https://wallpapercave.com/wp/wp4648565.jpg) ;
+     background-size: cover;
+    background-clip: text;
+    color: transparent;
+    
+}
+.carhead p{
+    text-align: center;
+    margin-top: -160px;
+    margin-left: 160px;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+.touch{
+    margin-left: 80px;
+    margin-top: 400px;
+}
+.touch h5{
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 200px;
+    letter-spacing: 5px;
+}
+.touch h3{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    margin-left: 80px;
+}
+.touch p{
+    margin-left: 80px;
+    line-height: 2;
+    font-size: 20px;
+}
+.grid-container {
+    text-align: center;
+    background-color: aliceblue;
+}
+.grid-container i{
+    font-size: 30px;
+}
+.grid-container .contain1{
+    /* border: 4px solid rgb(172, 230, 255); */
+    float: left;
+    padding: 30px; 
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    margin-left: 180px;
+}
+.grid-container .contain2{
+    /* border: 4px solid rgb(172, 230, 255); */
+    float: center;
+    padding: 30px; 
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+.grid-container .contain3{
+    /* border: 4px solid rgb(172, 230, 255); */
+    float: right;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: -198px;
+    margin-right: 180px;
+}
+input{
+    border-radius: 5px;
+    border-style: none;
+    border-color: rgb(226, 230, 233);
+    line-height: 5px;
+    padding: 0px;
+    margin: 10px;
+    margin-left: 180px;
+}
+.req h6{
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-left: 150px;
+}
+.req p{
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    margin-left: 150px;
+}
+.req button{
+    font-size: larger;
+    margin-left: 180px;
+    height:50px;
+    margin-top: 20px;
+}
+.req img{
+    float: right;
+    margin-top: -400px;
+    margin-right:80px;
+    height:500px;
+    width:500px;
+}
+.col1{
+    margin-top: 10px;
+    margin-left: 200px;
+    float: left;
+    line-height: 40px;
+}
+.foot{
+    margin:0px;
+    margin-top: 150px;
+    margin-left: 0px;
+    background-color: rgb(77, 104, 115);
+    height: 300px;
+    width: 1510px;
+    border-radius: 5px;
+}
+.foot h4{
+    font-size: 20px;
+}
+.articles{
+    margin-left:680px;
+    margin-top:30px;
+    padding-top: 10px;
+    font-family: Raleway;
+    line-height: 40px;
+    
+}
+.address{
+    margin-right:100px;
+    margin-top: -200px;
+    font-family: Raleway;
+    float: right;
+}
+.address span{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Raleway;
+}
+.but button{
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #d8ecf2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

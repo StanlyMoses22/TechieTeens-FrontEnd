@@ -1,0 +1,212 @@
+
+body {
+    background-color: #d8ecf2;
+    font-family: Raleway;
+    box-sizing: border-box;
+}
+.slide {
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50px;
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    background-color: #d8ecf2;
+    transition: 0.5s ease;
+    transform: translateX(-400px);
+}
+h1 {
+    color:rgb(41, 85, 103);
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+}
+ul li a:hover{
+    color: rgb(172, 230, 255);
+}
+a {
+    color: #011a41;
+    font-weight: 500;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+header{
+    text-align: center;
+    width: 1470px;
+    /* margin-left: 10px; */
+    font-size: 30px;
+    padding: 20px;
+    background-color:rgb(172, 230, 255);
+    color: rgb(41, 85, 103);
+}
+.help{
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    word-spacing: 20px;
+    float: right;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    
+}
+.care{
+    border: 2px solid black; 
+    padding: 2px 2px; 
+    padding-bottom: 2px;
+    width: 80px; 
+    height: 20px;
+    margin: 0 auto;
+}
+.help li{
+    list-style: none;
+    display: inline-block;
+}
+.icon{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 17px;
+    height:30px;
+    width:150px;
+    padding: 5px 5px;
+    border-radius: 8px;
+    margin-left: 10px;
+    border: none;
+    background-color:rgb(172, 230, 255);
+    color:#011a41;
+    cursor:pointer;
+}
+
+button:hover{
+    border-color: rgba(3, 99, 244, 0.5);
+    box-shadow: 0 0 10px rgba(15, 206, 240, 0.7);
+}
+h2{
+    font-size: 200px;
+    font-weight: 900;
+    letter-spacing: 20px;
+    margin-left: 300px;
+    background-image: url(https://wallpapercave.com/wp/wp12938371.png) ;
+     background-size: cover;
+    background-clip: text;
+    color: transparent;
+    
+}
+.carhead p{
+    text-align: center;
+    margin-top: -160px;
+    margin-left: 140px;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+.devo h4{
+    font-size: 30px;
+    font-display: uppercase;
+    letter-spacing: 5px;
+    margin-top: 250px;
+    margin-left:80px ;
+}
+.devo h6{
+    font-size: 18px;
+    margin-left:80px;
+    margin-top: -10px;
+
+}
+.devo ul li{
+    margin-left: 105px;
+    list-style: disc;
+    line-height: 2;
+}
+.devo button{
+    margin-left: 105px;
+    height: 50px;
+}
+
+.php h4{
+    font-size: 30px;
+    font-display: uppercase;
+    letter-spacing: 5px;
+    margin-top: 100px;
+    margin-left:80px ;
+}
+.php h6{
+    font-size: 18px;
+    margin-left:80px;
+    margin-top: -10px;
+
+}
+.php ul li{
+    margin-left: 105px;
+    list-style: disc;
+    line-height: 2;
+}
+.php button{
+    margin-left: 105px;
+    height: 50px;
+}
+.horizontal-line1 {
+    border-bottom: 3px solid black; 
+    margin: 50px 120px; 
+    margin-top: 80px;
+    margin-right: 150px;
+  }
+  .col1{
+    margin-top: 10px;
+    margin-left: 200px;
+    float: left;
+    line-height: 40px;
+}
+.foot{
+    margin:0px;
+    margin-top: 150px;
+    margin-left: 0px;
+    background-color: rgb(77, 104, 115);
+    height: 300px;
+    width: 1510px;
+    border-radius: 5px;
+}
+.foot h4{
+    font-size: 20px;
+}
+.articles{
+    margin-left:680px;
+    margin-top:30px;
+    padding-top: 10px;
+    font-family: Raleway;
+    line-height: 40px;
+    
+}
+.address{
+    margin-right:100px;
+    margin-top: -200px;
+    font-family: Raleway;
+    float: right;
+}
+.address span{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Raleway;
+}
+.but button{
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #d8ecf2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

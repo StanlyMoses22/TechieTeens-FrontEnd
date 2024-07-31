@@ -1,0 +1,142 @@
+
+body {
+    background-color:#d8ecf2;
+    font-family: Raleway;
+    box-sizing: border-box;
+
+}
+h1 {
+    color:rgb(41, 85, 103);
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+}
+ul li a:hover{
+    color: rgb(172, 230, 255);
+}
+a {
+    color: #011a41;
+    font-weight: 500;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+header{
+    /* position: absolute; */
+    text-align: center;
+    width: 1470px;
+    margin-left: 10px;
+    font-size: 30px;
+    padding: 20px;
+    background-color:rgb(172, 230, 255);
+    color: rgb(41, 85, 103);
+}
+.help{
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 40px;
+    word-spacing: 20px;
+    float: right;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    
+}
+.help li{
+    list-style: none;
+    display: inline-block;
+}
+.icon{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 17px;
+    height:30px;
+    width:150px;
+    padding: 5px 5px;
+    border-radius: 8px;
+    margin-left: 10px;
+    border: none;
+    background-color:rgb(172, 230, 255);
+    color:#011a41;
+    cursor:pointer;
+}
+
+button:hover{
+    border-color: rgba(3, 99, 244, 0.5);
+    box-shadow: 0 0 10px rgba(15, 206, 240, 0.7);
+}
+.but button{
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #d8ecf2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.forem{
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+    margin-left: 500px;
+    line-height: 3;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:500px;
+    background-color: rgb(218, 235, 240);
+    border-radius: 10px;
+}
+input{
+    margin-left: 50px;
+    align-items: center;
+    border-radius: 5px;
+    border: #ffffff;
+    
+}
+#first{
+    margin-left: 86px;
+    height: 30px;
+    width: 280px;
+}
+#second{
+    margin-left: 58px;
+    height: 30px;
+    width: 280px;
+}
+#email{
+    margin-left: 127px;
+    height: 30px;
+    width: 280px;
+}
+#remail{
+    margin-left: 47px;
+    height: 30px;
+    width: 280px;
+}
+#tel{
+    margin-left: 122px;
+    height: 30px;
+    width: 280px;
+}
+#City{
+    margin-left: 55px;
+    height: 30px;
+    width: 280px;
+}
+.forem button{
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
